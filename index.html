@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+     <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet"> 
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+     <!-- External CSS File Linked -->
+     <link rel="stylesheet" href="style.css" typw="text/css">
+     <title>Quote Generator</title>
+</head>
+<body>
+     
+     <div class="quote-generator" id="quote-generator">
+          <!-- Quote Text -->
+          <div class="quote-text">
+               <i class="fa fa-quote-left" aria-hidden="true"></i>
+               <span id="quote"></span>
+          </div>
+
+          <!-- Quote Author -->
+          <div class="quote-author">
+               <span id="author"></span>
+          </div>
+
+          <!-- Buttons -->
+          <div class="button-container">
+               <button class="twitter-button" id="twitter" title="Tweet This quote!">
+                    <i class="fa fa-twitter" aria-hidden="true"></i>
+               </button>
+               <button id="copy-to-clipboard" title="Copy quote to clipboard">
+                   <i class="fa fa-files-o" aria-hidden="true"></i> Copy
+               </button>
+               <button id="new-quote" title="Next Quote">New Quote</button>
+          </div>
+     </div>
+
+     <!-- Loader -->
+     <div class="loader" id="loader"></div>
+     
+     <!-- Javascript File Linked -->
+     <script src="script.js"></script>
+</body>
+</html>
